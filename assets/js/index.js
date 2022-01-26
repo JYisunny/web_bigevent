@@ -20,7 +20,7 @@
     // 获取用户的基本信息
     function getUserinfo() {
         $.ajax({
-            method: 'get',
+            method: 'GET',
             url: '/my/userinfo',
             // headers 就是请求头配置对象
             // headers: {
